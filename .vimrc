@@ -14,5 +14,8 @@ set colorcolumn=120
 set background=dark
 autocmd vimenter * ++nested colorscheme gruvbox
 
+" Show hidden files in NERDTree
+let NERDTreeShowHidden=1
+
 " Bind shortcut keys
 nmap <C-P> :FZF<CR>
